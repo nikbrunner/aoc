@@ -21,7 +21,11 @@
     "test:01:a": "cd ./01 && deno run --allow-read a.ts",
     "watch:01:a": "cd ./01 && deno run --watch --allow-read a.ts",
     "test:01:b": "cd ./01 && deno run --allow-read b.ts",
-    "watch:01:b": "cd ./01 && deno run --watch --allow-read b.ts"
+    "watch:01:b": "cd ./01 && deno run --watch --allow-read b.ts",
+    "test:02:a": "cd ./02 && deno run --allow-read a.ts",
+    "watch:02:a": "cd ./02 && deno run --watch --allow-read a.ts",
+    "test:02:b": "cd ./02 && deno run --allow-read b.ts",
+    "watch:02:b": "cd ./02 && deno run --watch --allow-read b.ts"
   },
   "test": {
     "files": {
